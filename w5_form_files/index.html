@@ -22,11 +22,13 @@
         <form>
             <tr>
                 <th><h3>Labels</h3></th>
+                <th><h3>Form Fields</h3></th>
             </tr>
             <tr>
                 <td>Parent/Gardian Name:</td>
-                <td><input type="text" placeholder="First Name"></td>
-                <td><input type="text" placeholder="Last Name"></td>
+                <td><input type="text" placeholder="First Name">
+                <br>
+                <input type="text" placeholder="Last Name"></td>
                 
             </tr>
             <tr>
@@ -57,20 +59,52 @@
             </tr>
             <tr>
                 <td>Size</td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="Size">sm
+                    <input type="radio" name="Size">med
+                    <input type="radio" name="Size">lg</td>
             </tr>
             <tr>
                 <td>Drinks</td>
-                <td><input type="checkbox" id="drink1" name="drink1" value="Coke">Coke</td>
-                <td><input type="checkbox" id="drink2" name="drink2" value="Sprite">Sprite</td>
-                <td><input type="checkbox" id="drink3" name="drink3" value="Fruit Punch">Fruit Punch</td>
-                <td><input type="checkbox" id="drink4" name="drink4" value="Lemonade">Lemonade</td>
-                <td><input type="checkbox" id="drink5" name="drink5" value="Iced Tea">Iced Tea</td>
+                <td><input type="checkbox" id="drink1" name="drink1" value="Coke">Coke 
+                <br>
+                <input type="checkbox" id="drink2" name="drink2" value="Sprite">Sprite 
+                <br>
+               <input type="checkbox" id="drink3" name="drink3" value="Fruit Punch">Fruit Punch 
+                <br>
+                <input type="checkbox" id="drink4" name="drink4" value="Lemonade">Lemonade 
+                <br>
+                <input type="checkbox" id="drink5" name="drink5" value="Iced Tea">Iced Tea</td>
                 
                  </tr>
             <tr>
                 <td>Cake</td>
-                <td><input type="number"></td>
+                <td>
+                    <select name="cake" id="cake">
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Vanilla">Vanilla</option>
+                        <option value="I'll bring my own">I'll bring my own</option>
+    
+    
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <th><h2>Decorations</h2></th>
+            </tr>
+
+            <tr>
+                <td>Color Scheme</td>
+                <td><input type="color"></td>
+            </tr>
+
+            <tr>
+                <td>Addition Comments</td>
+                <td><input type="textarea" placeholder="Please add any additional comments here"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit"></td>
             </tr>
 
 
